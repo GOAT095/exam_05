@@ -32,7 +32,7 @@ public:
 				if ((*b)->getName() == sp->getName())
 					return ;
 			}
-			spells.push_back(sp);
+			spells.push_back(sp->clone());
 		}
 	}
 
